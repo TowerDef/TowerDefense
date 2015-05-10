@@ -1,0 +1,487 @@
+fileFormatVersion: 2
+guid: 3e4bd904abed74d9f9d9cbf652655815
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: explosion_43FR_0
+    21300002: explosion_43FR_1
+    21300004: explosion_43FR_2
+    21300006: explosion_43FR_3
+    21300008: explosion_43FR_4
+    21300010: explosion_43FR_5
+    21300012: explosion_43FR_6
+    21300014: explosion_43FR_7
+    21300016: explosion_43FR_8
+    21300018: explosion_43FR_9
+    21300020: explosion_43FR_10
+    21300022: explosion_43FR_11
+    21300024: explosion_43FR_12
+    21300026: explosion_43FR_13
+    21300028: explosion_43FR_14
+    21300030: explosion_43FR_15
+    21300032: explosion_43FR_16
+    21300034: explosion_43FR_17
+    21300036: explosion_43FR_18
+    21300038: explosion_43FR_19
+    21300040: explosion_43FR_20
+    21300042: explosion_43FR_21
+    21300044: explosion_43FR_22
+    21300046: explosion_43FR_23
+    21300048: explosion_43FR_24
+    21300050: explosion_43FR_25
+    21300052: explosion_43FR_26
+    21300054: explosion_43FR_27
+    21300056: explosion_43FR_28
+    21300058: explosion_43FR_29
+    21300060: explosion_43FR_30
+    21300062: explosion_43FR_31
+    21300064: explosion_43FR_32
+    21300066: explosion_43FR_33
+    21300068: explosion_43FR_34
+    21300070: explosion_43FR_35
+    21300072: explosion_43FR_36
+    21300074: explosion_43FR_37
+    21300076: explosion_43FR_38
+    21300078: explosion_43FR_39
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: explosion_43FR_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 300
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_2
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 300
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_3
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 300
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_4
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 300
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_5
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 300
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_6
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 300
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_7
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 300
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_8
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 300
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_9
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 300
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_11
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 200
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_12
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 200
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_13
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 200
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_14
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 200
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_15
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 200
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_16
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 200
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_17
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 200
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_18
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 200
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_19
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 200
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_21
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 100
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_22
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 100
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_23
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 100
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_24
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 100
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_25
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 100
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_26
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 100
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_27
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 100
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_28
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 100
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_29
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 100
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_31
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 0
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_32
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 0
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_33
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 0
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_34
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 0
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_35
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 0
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_36
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 0
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_37
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 0
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_38
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 0
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: explosion_43FR_39
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 0
+        width: 93
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
