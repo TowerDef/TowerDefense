@@ -60,7 +60,7 @@ public class FaseGerenciador : MonoBehaviour {
 	public void SpawnEnemy()
 	{
 		float posY = -2 + Random.Range(0f,6f);
-		Instantiate(inimigo[Random.Range(0,4)],new Vector3(7,posY,posY),Quaternion.identity);
+		Instantiate(inimigo[Random.Range(0,inimigo.Length)],new Vector3(7,posY,posY),Quaternion.identity);
 		Invoke("SpawnEnemy",spawnTime);
 	}
 
