@@ -1,25 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class InimigoRanged : Inimigo {
+public class InimigoMelee : Inimigo {
 
 //	public float vel,velAtk ;
 //	public float vida;
 //	public int dano;
-	RaycastHit2D hit;
-	public float range;
-	bool isAtacking;
-
-	public GameObject bumerangue;
-
-	public LayerMask layerInimigos;
 
 	// Use this for initialization
 	void Start () 
 	{
 		GetComponent<Rigidbody2D>().velocity = new Vector2(-vel,0);
-		isAtacking = false;
-	
 	}
 
 	override public IEnumerator Ataque()
@@ -28,26 +19,11 @@ public class InimigoRanged : Inimigo {
 
 		while(true)
 		{
-			GameObject b = (GameObject) Instantiate(bumerangue,transform.position,Quaternion.identity);
-			b.GetComponent<TiroBumerangue>().dano = dano;
-
+			FaseGerenciador.faseGerenciador.Dano(dano);
 			yield return new WaitForSeconds(velAtk);
 		}
 	}
-
-	void Update()
-	{
-		if (!isAtacking) {
-			hit = Physics2D.Raycast(transform.position, Vector3.left, range, layerInimigos );
-
-			if (hit.transform!=null &&  hit.transform.gameObject.tag == "Torre")
-			{
-				isAtacking = true;
-				vel = 0;
-				StartCoroutine(Ataque());
-			}
-		}
-	}
+	
 
 	void OnTriggerEnter2D(Collider2D other)
 	{
@@ -58,7 +34,12 @@ public class InimigoRanged : Inimigo {
 				
 			Dano(other.gameObject.GetComponent<Tiro>().dano);
 		}
+		else if (other.tag== "Torre") 
+		{
 
+			vel = 0;
+			StartCoroutine(Ataque());
+		}
 	}
 
 	override public void Dano(float d)
@@ -72,6 +53,6 @@ public class InimigoRanged : Inimigo {
 	override public void AplicarDebuff(EnumDebuffInimigo debuff, float porcDebuff)
 	{
 		//TODO: aplicar Debuff nos inimigos (lentidao, fraqueza...)
-		Debug.Log("Aplicou Debuff Ranged!!!!");
+		Debug.Log("Aplicou Debuff Melee!!!!");
 	}
 }
