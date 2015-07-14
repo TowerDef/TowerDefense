@@ -12,6 +12,7 @@ public class FaseGerenciador : MonoBehaviour {
 
 	public GameObject bala;
 	public GameObject torre;
+	public GameObject canhao;
 	public float bulletSpeed;
 
 	public GameObject[] inimigo = new GameObject[4];
@@ -43,6 +44,13 @@ public class FaseGerenciador : MonoBehaviour {
 	{
 		if(balaTimer<Time.time)
 		{ 
+
+			Vector3 pos = Camera.main.WorldToScreenPoint(canhao.transform.position);
+			Vector3 dir = Input.mousePosition - pos;
+			float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+			canhao.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+
+
 			balaTimer = Time.time + cooldown;
 
 			Vector3 initialPosition = torre.transform.position;
@@ -53,7 +61,7 @@ public class FaseGerenciador : MonoBehaviour {
 			GameObject _bala = (GameObject) Instantiate(bala, initialPosition, Quaternion.identity);
 			
 			_bala.GetComponent<Rigidbody2D>().velocity = direction * bulletSpeed;
-		
+	
 		}
 	}
 

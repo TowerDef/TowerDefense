@@ -172,6 +172,7 @@
 'Assets/NGUI/Scripts/UI/UITexture.cs'
 'Assets/NGUI/Scripts/UI/UITooltip.cs'
 'Assets/NGUI/Scripts/UI/UIViewport.cs'
+'Assets/Scripts/Arqueiro.cs'
 'Assets/Scripts/Controle.cs'
 'Assets/Scripts/FaseGerenciador.cs'
 'Assets/Scripts/Inimigo.cs'

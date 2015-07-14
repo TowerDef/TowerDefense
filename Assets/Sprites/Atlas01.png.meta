@@ -3,6 +3,9 @@ guid: 3897da5ba8971403795204c0a8507b19
 TextureImporter:
   fileIDToRecycleName:
     21300000: Atlas01_0
+    21300002: Atlas01_1
+    21300004: Atlas01_2
+    21300006: Atlas01_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -51,6 +54,36 @@ TextureImporter:
         y: 9
         width: 207
         height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Atlas01_1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 32
+        width: 122
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Atlas01_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 36
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Atlas01_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 14
+        width: 4
+        height: 4
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
