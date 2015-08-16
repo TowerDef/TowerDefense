@@ -1,0 +1,7 @@
+
+
+Special thanks to Sou Chen Ki, FlyingTeapot and PolyNext for uploading the models freely to the Unity Asset Store. I did not make the models myself, as they are only used for testing purposes. Please contact the authors of these assets to gain permission for use in commercial use as I can not give you that permission.
+#1: The Earthborn Troll - Link: https://www.assetstore.unity3d.com/en/#!/content/13541 - Author:  Sou Chen Ki
+#2: Red Samurai - Link: https://www.assetstore.unity3d.com/en/#!/content/4331 - Author: Sou Chen Ki
+#3: FT_CaveWorm - Link: https://www.assetstore.unity3d.com/en/#!/content/3317 - Author: FlyingTeapot
+#4: Spider Green - Link: https://www.assetstore.unity3d.com/en/#!/content/11869 - Author: PolyNext

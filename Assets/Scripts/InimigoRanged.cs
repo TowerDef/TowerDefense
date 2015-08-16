@@ -17,6 +17,7 @@ public class InimigoRanged : Inimigo {
 	// Use this for initialization
 	void Start () 
 	{
+
 		GetComponent<Rigidbody2D>().velocity = new Vector2(-vel,0);
 		isAtacking = false;
 	
@@ -28,6 +29,10 @@ public class InimigoRanged : Inimigo {
 
 		while(true)
 		{
+
+			if(estado==EnumStateInimigo.Morto)
+				yield break;
+
 			GameObject b = (GameObject) Instantiate(bumerangue,transform.position,Quaternion.identity);
 			b.GetComponent<TiroBumerangue>().dano = dano;
 
@@ -56,22 +61,8 @@ public class InimigoRanged : Inimigo {
 		{
 			Destroy(other.gameObject);	
 				
-			Dano(other.gameObject.GetComponent<Tiro>().dano);
+			Dano(other.gameObject.GetComponent<Tiro>().dano, Enums.EnumDamageType.Physical);
 		}
 
-	}
-
-	override public void Dano(float d)
-	{
-		vida-=d;
-
-		if(vida<=0)
-			Destroy(gameObject);
-	}
-
-	override public void AplicarDebuff(EnumDebuffInimigo debuff, float porcDebuff)
-	{
-		//TODO: aplicar Debuff nos inimigos (lentidao, fraqueza...)
-		Debug.Log("Aplicou Debuff Ranged!!!!");
 	}
 }

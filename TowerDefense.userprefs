@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Arqueiro.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Balas/NewBullet.cs">
     <Files>
-      <File FileName="Assets/Scripts/Arqueiro.cs" Line="70" Column="5" />
+      <File FileName="Assets/Scripts/Balas/NewBullet.cs" Line="31" Column="5" />
+      <File FileName="Assets/Scripts/Inimigo.cs" Line="58" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -11,7 +11,7 @@ public class InimigoMelee : Inimigo {
 	void Start () 
 	{
 		GetComponent<Rigidbody2D>().velocity = new Vector2(-vel,0);
-		anim = GetComponent<Animator>();
+
 	}
 
 	override public IEnumerator Ataque()
@@ -33,7 +33,7 @@ public class InimigoMelee : Inimigo {
 		{
 			Destroy(other.gameObject);	
 				
-			Dano(other.gameObject.GetComponent<Tiro>().dano);
+			Dano(other.gameObject.GetComponent<Tiro>().dano, Enums.EnumDamageType.Physical);
 		}
 		else if (other.tag== "Torre") 
 		{
@@ -41,31 +41,5 @@ public class InimigoMelee : Inimigo {
 			vel = 0;
 			StartCoroutine(Ataque());
 		}
-	}
-
-	override public void Dano(float d)
-	{
-		vida-=d;
-
-
-
-		if(vida<=0)
-		{
-			GetComponent<Collider2D>().enabled =false;
-			GetComponent<Rigidbody2D>().velocity = new Vector2(0,0);
-			anim.Play("Morte",0,0);
-
-		}
-
-		else
-			anim.Play("Dano",1,0);
-	}
-
-
-
-	override public void AplicarDebuff(EnumDebuffInimigo debuff, float porcDebuff)
-	{
-		//TODO: aplicar Debuff nos inimigos (lentidao, fraqueza...)
-		Debug.Log("Aplicou Debuff Melee!!!!");
 	}
 }
